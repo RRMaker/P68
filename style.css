@@ -1,59 +1,13 @@
 body {
     text-align: center;
     margin: 0;
-    padding-top: 800px;
+    padding-top:0px;
 }
-
-.profile {
-    width: 350px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-}
-
-#welcome {
-    position: absolute;
-    height: 800px;
-    color: orange;
-    font-family: 'Rubik', sans-serif;
-    left: 0;
-    bottom: 0;
-    z-index:9;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(blue 0%, red 100%);
-}
-
-h1 {
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: sans-serif;
-    font-weight: 300;
-}
-
 h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
     font-family: monospace;
-}
-
-#bio {
-    padding: 50px;
-    font-size: 40px;
-}
-
-.line {
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: 8px auto;
-}
-p{
-    width:450px;
-    margin:25px auto;
-    font-size:18px;
-    line-height:1.3;
 }
 .menu{
    list-style:none;
@@ -98,15 +52,73 @@ text-shadow: none !important;
     color: blue !important;
 }  
 #contact{
-    background-color: firebrick;
+    background-color: white;
 }
 #contact iframe{
     width:100%;
 }
-.contact1 h3{
+.contact1 h5{
     display: inline;
 }
 .contact1 a{
     color: floralwhite;
     text-shadow:none;
+}
+#Zam{
+align-content: center;
+    margin-left:250px;
+}
+.row::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+.travel_mainDiv{
+float: left;
+    width:33.33%;
+    padding:5px;
+    border:1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+    width:100%;
+    height:300%;
+}
+.travel_mainDiv hr{
+  width:100%;  
+}
+.travel_mainDiv h5 , .travel_mainDiv p{
+margin-left: 20px;
+}
+#achievementsID{
+    padding-bottom: 10px;
+}
+.movie_head{
+font-size:20px;
+    padding:6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width:100%;
+    display:inline-block;
+}
+.movie_head i{
+float: right;
+}
+.movie_text div{
+color:#ff7700;
+}
+#Bal{
+    width:400px;
+    height:500px;
+}
+#Thack{
+    width:350px;
+    height:500px;
+}
+#Sar{
+    width:400px;
+    height:400px;
+}
+#Muk{
+    width:400px;
+    height:400px;
 }

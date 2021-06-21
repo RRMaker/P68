@@ -12,7 +12,18 @@
     </head>
 
     <body>
-        <ul class="menu">
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+            <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Lawler Middle School</a>
+    </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="menu">
             <li class="links"><a href="#name">School Name</a></li>
             <li class="links"><a href="#life">Campus Life</a></li>
             <li class="links"><a href="#achievements">Achievements</a></li>
@@ -20,26 +31,234 @@
             <li class="links"><a href="#alumni">Alumni</a></li>
             <li class="links"><a href="#contact">Contact</a></li>
         </ul>
+            </div>
+        </nav>
+        <div class="announcement"id="name">
+            <h2 class="text-capitalize">Lawler Middle School Promotion Video</h2>
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries on school@gmail.com ***
+        </marquee>
+        </div>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/baQwYCmbA68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="container">
-            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
-            <h2 class="text-capitalize">Contact Us</h2>
+            <div class="page-header" id="life">
+                <h2 class="text-capitalize">Campus Life</h2>
+                <div class="row">
+                    <div class="travel_mainDiv">
+                    <img class="img-responsive" src="medium.jpg">
+                        <h4 class="text-capitalize"><kbd>school room</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was built in 2019</h5>
+                        <p class="text-muted text-left">This is the entrance room of the school. It seems regular, but it may be one of the coolest rooms. The pandemic set lots of people back to virtual learning, so now when those students come to school, the first thing they see wil be the entrance room, amazing them.</p>
+                    </div>
+                    <div class="travel_mainDiv">
+                    <img class="img-responsive" src="track.jpg">
+                        <h4 class="text-capitalize"><kbd>school track</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was built in 2019</h5>
+                        <p class="text-muted text-left">This is the track for the school. It plays a big role because every grade uses these. 6th grade uses it to do mile runs. 7th grade uses it for track course. And 8th grade uses to train.</p>
+                    </div>
+                    <div class="travel_mainDiv">
+                    <img class="img-responsive" src="theatre.webp">
+                        <h4 class="text-capitalize"><kbd>school theatre</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was built in 2019</h5>
+                        <p class="text-muted text-left">This is the school theatre. The people who take the theatre elective usually work in this room. They mainly film movies and make plays. There is also Tech theatre where they use tech to edit and polish up the movie.</p>
+                    </div>
+                </div>
             </div>
             
+            <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">Achievements</h2>
+            </div>
+            
+            <div class="bg-primary movie_head" data-toggle="collapse" data target="#school_achievement1">
+            <span class="glyphicon glyphicon-check"></span>Debate on Educational Purpose and Service <i class="fa fa-sort-desc"></i>
+            </div>
+            
+            <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="debaters.png" class="img-responsive img-thumbnail">
+            </div>
+                
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" movie_text>
+                <h5 class="text-success text-left text-capitalize">Debated against part of class</h5>
+                    <p>We debated against a part of the team in the class. We didn't win, but we did really good.</p>
+                </div>
+        </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            <span class="glyphicon glyphicon-check"></span>First in District Tennis Tournament Twice<i class="fa fa-sort-desc"></i>
+            </div>
+            
+            <div id="school_achievement2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="tennis.webp" class="img-responsive img-thumbnail">
+            </div>
+                
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" movie_text>
+                <h5 class="text-success text-left text-capitalize">Got first at tennis in district</h5>
+                    <p>Our school was able to get first in the district twice. There are 17 middle schools, and we topped. Our school is very good at tennis, and they have high standards to be able to get on the tennis team for the district.</p>
+                </div>
+        </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            <span class="glyphicon glyphicon-check"></span>3rd in UIL competition<i class="fa fa-sort-desc"></i>
+            </div>
+            
+            <div id="school_achievement3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="uil.jpg" class="img-responsive img-thumbnail">
+            </div>
+                
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" movie_text>
+                <h5 class="text-success text-left text-capitalize">Got third in UIL</h5>
+                    <p>Our school got third in UIL. This was because of our band team. UIL is a very big competition where lots of people watch young people show off their talents. Our band team attended the competition and got 3rd, which is still really good.</p>
+                </div>
+        </div>
+            <h2 class="text-capitalize" id="new">Whats New</h2>
+            <ul class="list-group">
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+        <h4>More F2f people increasing campus population</h4>
+        <img src="F2F.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In Lawler Middle School the campus is going to go back to normal starting August 12, 2021. Because of the pandemic, the campus took a great hit, decreasing to only 300 people, much less than the usual 1000. But now since the COVID vaccines have been distributed, the students are more comfortable going.I know this will impact greatly for the better.</p>
+    </li>
+        
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+        <h4>Option for virtual school has been disabled</h4>
+        <img src="NV.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In the earlier passage I mentioned that more people are returning to F2F. However,there are a cluster of people that still chose to go virtual. At first the option was open, but for it to stay open, it had to become a bill for the government, which needed to be approved. The bill was approved, but there was no final approval. Because of the absence of the final approval, they had no choice but to disable the option until final approval was given. But there is still hope for it, because if the bill gets the approval, then the option can come back.</p>
+    </li>
+    </ul>
+    </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+    <h2>Alumni</h2>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumni" data-toggle="modal" data-target="#school-alumni1">
+    <img src="Thack.jpg" id="Thack" class="img-responsive">
+        <hr>
+        <p class="text-primary">Aditya Thackeray</p>
+    </div>
+    
+    <div class="modal fade" id="school-alumni1">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Aditya Thackeray</h4>
+    </div>
+        <div class="modal-body">
+        <img src="Thack.jpg" class="img-responsive img_modal">
+            <p class="p_modal">
+            Aditya Thackeray(born on June 13, 1990)is an Indian Politician<br>
+                <a href="https://en.wikipedia.org/wiki/Aaditya_Thackeray">
+                <b>To Know More</b>
+                </a>
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumni" data-toggle="modal" data-target="#school-alumni2">
+    <img src="Bal.jpg" id="Bal" class="img-responsive">
+        <hr>
+        <p class="text-primary">Vidya Balan</p>
+    </div>
+    
+    <div class="modal fade" id="school-alumni2">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Vidya Balan</h4>
+    </div>
+        <div class="modal-body">
+        <img src="Bal.jpg" class="img-responsive img_modal">
+            <p class="p_modal">
+            Vidya Balan(born on January 1, 1979)is an Indian Actress<br>
+                <a href="https://en.wikipedia.org/wiki/Vidya_Balan">
+                <b>To Know More</b>
+                </a>
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumni" data-toggle="modal" data-target="#school-alumni3">
+    <img src="Muk.jpg" id="Muk" class="img-responsive">
+        <hr>
+        <p class="text-primary">Mukesh Ambani</p>
+    </div>
+    
+    <div class="modal fade" id="school-alumni3">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Mukest Ambani</h4>
+    </div>
+        <div class="modal-body">
+        <img src="Muk.jpg" class="img-responsive img_modal">
+            <p class="p_modal">
+            Mukesh Ambani(born on April 19, 1957)is an Indian Businessman<br>
+                <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani">
+                <b>To Know More</b>
+                </a>
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumni" data-toggle="modal" data-target="#school-alumni4">
+    <img src="Sar.jpg" id="Sar" class="img-responsive">
+        <hr>
+        <p class="text-primary">Rajdeep Sardesai</p>
+    </div>
+    
+    <div class="modal fade" id="school-alumni4">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Rajdeep Sardesai</h4>
+    </div>
+        <div class="modal-body">
+        <img src="Sar.jpg" class="img-responsive img_modal">
+            <p class="p_modal">
+            Rajdeep Sardesai(born on May 24, 1965)is an Indian Documenter<br>
+                <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai">
+                <b>To Know More</b>
+                </a>
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+            <h2 class="text-capitalize">Contact Us</h2>
+            </div>
             <div id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.290584788403!2d-96.7686634704726!3d33.1365968160298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3d941d857b8b%3A0xe9da5662b8d9200e!2sLawler%20Middle%20School!5e0!3m2!1sen!2sus!4v1618679565247!5m2!1sen!2sus" width="600" height="450"></iframe>
                 <div>
                 <div id="details">
-                    <img src="http://schools.friscoisd.org/images/default-source/campus-directory/lawler-middle-school/zambiasit.jpg?v=0611202192444" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <img id="Zam" src="Zam.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
                     <h3>Principal Name:</h3>
                     <h4>Travis Zambaisi</h4>
                     <div class="contact_1">
                         <a href="mailto:school@gmail.com?Subject=Hi">
-                            <h5></h5>
+                            <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;4696334150</h5>
                         </a>
                     </div>
                 </div>
                 </div>
             </div>
-        </div>
     </body>
     </html>
